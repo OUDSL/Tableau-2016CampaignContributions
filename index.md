@@ -357,12 +357,12 @@ One of the great elements of Tableau is the the ability to filter by visualizati
 
 ![Moving and Resizing images](images/img_30.png) 
 
-Now test this filter out, by selecting different elements of the bar graph like a specific profession or the red porition of a specific profession. 
+Now test this filter out, by selecting different elements of the bar graph like a specific profession or the red portion of a specific profession. 
 
 * Apply the use as filter option to your map as well. 
 
 ## Re-arranging the Dashboard
-Finally we can re-arrange our dashboard to maximize our space. We won't give specific instructions in the section. Instead will will provide some tips, and let you decide the best way to arranage it. 
+Finally we can re-arrange our dashboard to maximize our space. We won't give specific instructions in the section. Instead will will provide some tips, and let you decide the best way to arrange it. 
 * You can reposition a box by clicking on it, hover over the gray bar that appears in the top center, and then dragging it to your preferred location. 
 * If you select the edge of the box, instead of the gray bar, you can resize the box. 
 
@@ -370,8 +370,23 @@ Finally we can re-arrange our dashboard to maximize our space. We won't give spe
 
 * Also, when you click on a box, there should be a down arrow that appears. 
 * Select this and explore the different options that appear. 
-  * Try the **Title** and **Floating** options to see what they do. Don't forget the Undo option if you don't like you changes. 
+  * Try the **Title** and **Floating** options to see what they do. Don't forget the Undo option if you don't like you changes.
 
+![Other style options on the dashboard](images/img_31.png) 
+ 
 
 # Saving Your Visualization
 Once you are satisfied with your dashboard, it is time to save it. 
+
+* To Save, navigate to the **File** menu at the top left and select **Save to Tableau Public As**. 
+
+![Save to Tableau Public As](images/img_32.png) 
+
+* In the dialog box that appears, enter a name for your project. 
+* Click **Ok**. 
+* If you are not already signed into Tableau Public, you will be asked to enter your log in information. You can also sign up for a Tableau Public account at this point. 
+* After saving you, will be directed to your visualization as saved on Tableau Public's server. 
+* From here you can update the metadata and share out your visualization. 
+
+
+Congrats! You have completed your first Tableau Visualization! 
