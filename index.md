@@ -16,6 +16,8 @@ Created by [Sarah Pugachev](https://github.com/sclayton29)
   * [Refining the Style](#refining-the-style)
   * [Exposing a Filter](#exposing-a-filter)
 * [Creating a Bar Graph](#creating-a-bar-graph)
+  * [Adding Data to Rows and Columns](#adding-data-to-rows-and-columns)
+  * [Styling Bar Graph](#styling-bar-graph)
 
 ## Introduction
 This lesson will take you through creating a data visualization with Tableau.
@@ -38,7 +40,7 @@ We will be using freely available data from the [Federal Election Commission](ht
 
 
 Let's download the cleaned data to get started! 
-* **[Download the cleaned data](/raw/master/data/OKContributions.csv)**
+* **[Download the cleaned data](https://github.com/sclayton29/Tableau-2016CampaignContributions/raw/master/data/OKContributions.csv)**
 * Move the downloaded file to another location where you can easily locate it. I'll move the the file to my Desktop. 
 * Look over the spreadsheet to get a better understanding of the data we will be using. 
 
@@ -134,6 +136,13 @@ If you look back at your the original spreadsheet, you will notice that this dat
 Sometimes when you add filters, you can miss the way the visualization changed. Luckily Tableau has undo and redo functionalities that allow you to quickly reverse and re-implement what you just did. You can either use your normal keyboard shortcuts (like Cmd + Z on Macs) or use the back and forward arrows at the top left of the screen. Try to undo and redo adding the filter and pay attention to how your map changes. 
 ![Undo and Redo](images/img_12.png) 
 
+Before moving on, we want to set this filter to be applied to all of the related visualizations we will create. 
+* To do this, click on the down arrow next to Cand Nm. 
+* Select **Apply to Worksheets**.
+* Then, select **All Using This Data Source**.
+![Undo and Redo](images/img_12a.png) 
+
+
 ### Refining the Style
 Notice that after we updated the filter, the scale we selected for our SUM(Contb Receipt Amt) doesn't seem as approriate. Let's go back into our legend and edit it. 
 * Go the the SUM(Contb Recepit Amt) legend on the right size of the screen. 
@@ -205,3 +214,11 @@ First, we need to create a new sheet to create our graph.
 * Next to **Map** in the bottom left corner, select the icon that looks like a **bar graph with a +**.
 ![Creating a New Sheet](images/img_19.png) 
 * A blank sheet will open up. Rename the new sheet to something like **Professions**. 
+
+### Adding Data
+For the bar graph, we will need to add data, to rows and columns boxes near the top of the window. 
+* Drag **Contbr Occupation** to Rows and **Contrb Receipt Amt to Columns**. 
+![Adding Data to Rows and Columns](images/img_20.png) 
+Recognizing the type of data added, Tableau should automatically create a bar graph. 
+
+### Styling Bar Graph
